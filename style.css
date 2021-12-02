@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body {
+	background-image: url("https://images.unsplash.com/photo-1603169812512-d6560fd13fa2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80");
+	font-family: 'Open Sans', sans-serif;
+	display: flex;
+	align-items: left;
+	justify-content: center;
+	flex-direction: column;
+	height: 100vh;
+	margin: 0;
+  margin-left: 7rem;
+}
+
+.results {
+	display: flex;
+	align-items: left;
+	justify-content: left;
+
+}
+
+.result {
+	background-color: #F3F7FA;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 10px;
+	height: 400px;
+	width: 300px;
+}
+
+.result img {
+	object-fit: cover;
+	height: 100%;
+	width: 100%;
+}
+
+.buttons {
+	display: flex;
+
+}
+
+button {
+	background-color: #D59649;
+	border: 0;
+	border-radius: 20px;
+	color: #fff;
+	font-size: 18px;
+	padding: 10px;
+	margin: 10px;
+	width: 300px;
+}
+
+button:active {
+	transform: scale(0.98);
+}
+
+button:focus {
+	outline: none
+}
+
+@media only screen and (max-device-width: 530px){
+  body {
+    align-items: center;
+    margin: 0;
+  }
+
+
+}
